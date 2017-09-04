@@ -6,8 +6,10 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
 //Solves problem for inputs less then size of int
-//Todo: reimplement adding to just using lists.
+//Correct solution that solves leet codes test cases is b.
+ 
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
